@@ -1,99 +1,127 @@
-<style media="screen" >
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600');
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Exo;
+
 }
 
-@font-face {
-    font-family: Exo;
-    src: url(./fonts/Exo2.0-Medium.otf);
+
+.color-white {
+    color: white;
+
 }
 
-.main {
+.flip-box {
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+    margin-top: 50px;
+
+}
+
+.flip-box-front,
+.flip-box-back {
+    background-size: cover;
+    background-position: center;
+    border: 8px;
+    min-height: 475px;
+    transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
+    backface-visibility: hidden;
+
+
+}
+
+.flip-box-front {
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+
+}
+
+.flip-box:hover .flip-box-front {
+    transform: rotateY(-180deg);
+    transform-style: preserve-3d;
+    /* transition: 1s; */
+}
+
+.flip-box-back {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 450px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+
 }
 
-.profile-card {
-    position: relative;
-    font-family: sans-serif;
-    width: 220px;
-    height: 220px;
-    background: #e3e75a;
-    padding: 30px;
-    border-radius: 50%;
-    box-shadow: 0 0 22px #3336;
-    transition: .6s;
-    margin: 0 25px;
+.flip-box:hover .flip-box-back {
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
 }
 
-    .profile-card:hover {
-        border-radius: 10px;
-        height: 260px;
-    }
-
-    .profile-card .img {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        transition: .6s;
-        z-index: 99;
-    }
-
-    .profile-card:hover .img {
-        transform: translateY(-60px);
-    }
-
-.img img {
+.flip-box .inner {
+    position: absolute;
+    left: 0;
     width: 100%;
-    border-radius: 50%;
-    box-shadow: 0 0 22px #3336;
-    transition: .6s;
+    padding: 60px;
+    outline: 1px solid transparent;
+    perspective:inherit;
+    z-index: 10;
+    transform: translateY(-50%) translateZ(60px) scale(.94);
+    top: 50%;
+    color: black;
 }
 
-.profile-card:hover img {
-    border-radius: 10px;
+.flip-box-header{
+    font-size: 30px;
+
 }
 
-.caption {
-    text-align: center;
-    transform: translateY(-80px);
-    opacity: 0;
-    transition: .6s;
+.flip-box p{
+    font-size:20px;
+    line-height: 1.5rem;
+
 }
 
-.profile-card:hover .caption {
-    opacity: 1;
+.flip-box-img{
+    margin-top: 25px;
+
+}
+.flip-box-button{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 15px 20px;
+    text-transform: uppercase;
 }
 
-.caption h3 {
-    font-size: 21px;
-    font-family: sans-serif;
+
+
+
+.text-box{
+    font-size: large;
 }
 
-.caption p {
-    font-size: 15px;
-    color: #0c52a1;
-    font-family: sans-serif;
-    margin: 2px 0 9px 0;
+.our-team{
+    height: 50px;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   padding-top: 5vh;
+   padding-bottom: 5vh;
+}
+.hide{
+    visibility: hidden;
 }
 
-.caption .social-links a {
-    color: #333;
-    margin-right: 15px;
-    font-size: 21px;
-    transition: .6s;
+
+@media (max-width: 767px) {
+.hide{
+    display: none;
+}
 }
 
-.social-links a:hover {
-    color: #0c52a1;
-}
-
-</style >
