@@ -1,0 +1,738 @@
+a {
+  text-decoration: none;
+}
+
+.home-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    font-family: Jost;
+    
+  }
+  .home-home {
+    width: 100%;
+    height: 3843px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .home-rectangle15 {
+    top: 559px;
+    left: 603px;
+    width: 213px;
+    height: 121px;
+    position: absolute;
+  }
+  .home-rectangle151 {
+    top: 296px;
+    left: 458px;
+    width: 212px;
+    height: 116px;
+    position: absolute;
+    border-radius: 30px;
+  }
+  .home-rectangle152 {
+    top: 464px;
+    left: 208px;
+    width: 189px;
+    height: 116px;
+    position: absolute;
+  }
+  .home-rectangle153 {
+    top: 187px;
+    left: 89px;
+    width: 275px;
+    height: 217px;
+    position: absolute;
+    border-radius: 30px;
+  }
+  .home-vector6 {
+    top: 986px;
+    left: 683px;
+    width: 73px;
+    height: 21px;
+    position: absolute;
+  }
+  .home-rectangle7 {
+    top: 762px;
+    left: 1210px;
+    width: 150px;
+    height: 35px;
+    position: absolute;
+  }
+  .home-rectangle71 {
+    left: 167px;
+    width: 231px;
+    bottom: 531px;
+    height: 57px;
+    position: absolute;
+  }
+  .home-rectangle72 {
+    top: 762px;
+    left: 997px;
+    width: 150px;
+    height: 35px;
+    position: absolute;
+  }
+  .home-text {
+    top: 571px;
+    left: 935px;
+    color: rgb(8, 12, 83);
+    width: 488px;
+    height: 98px;
+    position: absolute;
+    font-size: 55px;
+    font-style: Regular;
+    text-align: center;
+    font-family: "Jost";
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-screenshot20231102at1594 {
+    top: 544px;
+    left: 101px;
+    width: 383px;
+    height: 242px;
+    position: absolute;
+    border-radius: 30px;
+  }
+  .home-screenshot20231102at2031 {
+    top: 226px;
+    left: 137px;
+    width: 352px;
+    height: 256px;
+    position: absolute;
+    border-radius: 30px;
+  }
+  .home-text01 {
+    top: 48px;
+    left: 1621px;
+    color: rgba(8, 12, 83, 1);
+    width: 178px;
+    height: auto;
+    position: absolute;
+    font-size: 30px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Jost;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-screenshot20231102at1592 {
+    top: 374px;
+    left: 412px;
+    width: 381px;
+    height: 256px;
+    position: absolute;
+    border-radius: 30px;
+  }
+  .home-text03 {
+    top: 765px;
+    left: 1033px;
+    color: rgba(254, 196, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Jost;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text05 {
+    top: 1075px;
+    left: 584px;
+    color: rgba(8, 12, 83, 1);
+    height: auto;
+    position: absolute;
+    font-size: 70px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Jost;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-vector2 {
+    top: 1176px;
+    left: 472px;
+    width: 496px;
+    height: 1px;
+    position: absolute;
+  }
+  .home-text07 {
+    top: 1283px;
+    left: 210px;
+    color: rgba(8, 12, 83, 0.698);
+    width: 1020px;
+    height: auto;
+    position: absolute;
+    font-size: 45px;
+    font-style: Regular;
+    text-align: center;
+    font-family: "Jost";
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-layer1 {
+    top: 1866px;
+    left: 242px;
+    width: 102px;
+    height: 134px;
+    position: absolute;
+  }
+  .home-layer11 {
+    top: 1868px;
+    left: 656px;
+    width: 141px;
+    height: 134px;
+    position: absolute;
+  }
+  .home-layer12 {
+    top: 1870px;
+    right: 191px;
+    width: 112px;
+    height: 134px;
+    position: absolute;
+  }
+  .home-text08 {
+    top: 2093px;
+    left: 144px;
+    color: rgba(8, 12, 83, 0.699999988079071);
+    width: 296px;
+    height: auto;
+    position: absolute;
+    font-size: 25px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Jost;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text10 {
+    top: 2020px;
+    left: 116px;
+    color: rgba(8, 12, 83, 1);
+    width: 354px;
+    height: auto;
+    position: absolute;
+    font-size: 48px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Jost;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text12 {
+    top: 2093px;
+    left: 565px;
+    color: rgba(8, 12, 83, 0.699999988079071);
+    width: 318px;
+    height: auto;
+    position: absolute;
+    font-size: 25px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Jost;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text14 {
+    top: 2022px;
+    left: 562px;
+    color: rgba(8, 12, 83, 1);
+    width: 354px;
+    height: auto;
+    position: absolute;
+    font-size: 48px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Jost;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text16 {
+    top: 2093px;
+    left: 1013px;
+    color: rgba(8, 12, 83, 0.699999988079071);
+    width: 354px;
+    height: auto;
+    position: absolute;
+    font-size: 25px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Jost;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text18 {
+    top: 2022px;
+    left: 1013px;
+    color: rgba(8, 12, 83, 1);
+    width: 354px;
+    height: auto;
+    position: absolute;
+    font-size: 48px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Jost;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-vector3 {
+    top: 2282px;
+    left: 580px;
+    width: 350px;
+    height: 427px;
+    position: absolute;
+  }
+  .home-text20 {
+    top: 2441px;
+    left: 399px;
+    color: rgb(254, 196, 0);
+    width: 339px;
+    height: 206px;
+    position: absolute;
+    font-size: 64px;
+    font-style: Regular;
+    text-align: left;
+    font-family: "Jost";
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text23 {
+    color: #080c53;
+    font-size: 35px;
+  }
+  .home-text25 {
+    top: 2318px;
+    left: 760px;
+    color: rgb(254, 196, 0);
+    width: 246px;
+    height: auto;
+    position: absolute;
+    font-size: 64px;
+    font-style: Regular;
+    text-align: left;
+    font-family: "Jost";
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text28 {
+    color: #080c53;
+    font-size: 35px;
+  }
+  .home-text30 {
+    top: 2537px;
+    left: 773px;
+    color: rgb(254, 196, 0);
+    width: 242px;
+    height: auto;
+    position: absolute;
+    font-size: 64px;
+    font-style: Regular;
+    text-align: left;
+    font-family: "Jost";
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text33 {
+    color: #080c53;
+    font-size: 35px;
+  }
+  .home-text35 {
+    top: 2938px;
+    left: 773px;
+    color: rgba(8, 12, 83, 1);
+    height: auto;
+    position: absolute;
+    font-size: 60px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Jost;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text37 {
+    top: 3065px;
+    left: 678px;
+    color: rgba(8, 12, 83, 0.699999988079071);
+    width: 777px;
+    height: auto;
+    position: absolute;
+    font-size: 30px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Jost;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text46 {
+    top: 3262px;
+    left: 212px;
+    color: rgb(8, 12, 83);
+    height: auto;
+    position: absolute;
+    font-size: 30px;
+    font-style: Regular;
+    text-align: center;
+    font-family: "Jost";
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text47 {
+    top: 765px;
+    left: 1239px;
+    color: rgba(8, 12, 83, 1);
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Jost;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-rcwhite1removebgpreview4 {
+    top: 209px;
+    left: 985px;
+    width: 388px;
+    height: 345px;
+    position: absolute;
+  }
+  .home-text49 {
+    top: 45px;
+    left: 477px;
+    color: rgba(8, 12, 83, 1);
+    width: 114px;
+    height: auto;
+    position: absolute;
+    font-size: 30px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Jost;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text51 {
+    top: 45px;
+    left: 606px;
+    color: rgba(8, 12, 83, 1);
+    width: 157px;
+    height: auto;
+    position: absolute;
+    font-size: 30px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Jost;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text53 {
+    top: 45px;
+    left: 778px;
+    color: rgba(8, 12, 83, 1);
+    width: 157px;
+    height: auto;
+    position: absolute;
+    font-size: 30px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Jost;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text55 {
+    top: 45px;
+    left: 954px;
+    color: rgba(8, 12, 83, 1);
+    width: 178px;
+    height: auto;
+    position: absolute;
+    font-size: 30px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Jost;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-rectangle16 {
+    top: 88px;
+    left: 489px;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    border-radius: 30px;
+  }
+  .home-whats-app-image20231030at8552 {
+    top: 42px;
+    left: 51px;
+    width: 75px;
+    height: 70px;
+    position: absolute;
+  }
+  .home-text57 {
+    top: 45px;
+    left: 1165px;
+    color: rgba(8, 12, 83, 1);
+    width: 178px;
+    height: auto;
+    position: absolute;
+    font-size: 30px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Jost;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-footer {
+    top: 3698px;
+    left: 0px;
+    width: 1441px;
+    height: 379.90838623046875px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(8, 12, 83, 1);
+  }
+  .home-text59 {
+    top: 22px;
+    left: 189.13125610351562px;
+    color: rgba(255, 255, 255, 1);
+    width: 194px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Jost;
+    font-weight: 500;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-group {
+    top: 90px;
+    left: 189.13125610351562px;
+    width: 462.3208923339844px;
+    height: 24px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-text61 {
+    color: rgba(255, 255, 255, 1);
+    width: 48px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Light;
+    text-align: left;
+    font-family: Jost;
+    font-weight: 300;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text63 {
+    left: 123.67667388916016px;
+    color: rgba(255, 255, 255, 1);
+    width: 73px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Light;
+    text-align: left;
+    font-family: Jost;
+    font-weight: 300;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text65 {
+    left: 385.3141784667969px;
+    color: rgba(255, 255, 255, 1);
+    width: 77px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Light;
+    text-align: left;
+    font-family: Jost;
+    font-weight: 300;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text67 {
+    left: 247.640625px;
+    color: rgba(255, 255, 255, 1);
+    width: 62px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Light;
+    text-align: left;
+    font-family: Jost;
+    font-weight: 300;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-icon-social-instagram {
+    top: 92px;
+    left: 1259px;
+    width: 17px;
+    height: 20px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .home-combined-shape {
+    top: 0px;
+    left: 0px;
+    width: 17px;
+    height: 20px;
+    position: absolute;
+  }
+  .home-icon-social-instagram-copy {
+    top: 92px;
+    left: 1209px;
+    width: 18px;
+    height: 20px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .home-shape {
+    top: 3.3333334922790527px;
+    left: 0px;
+    width: 18px;
+    height: 14px;
+    position: absolute;
+  }
+  .home-icon-social-instagram-copy2 {
+    top: 92px;
+    left: 1160px;
+    width: 17px;
+    height: 20px;
+    position: absolute;
+  }
+  .home-icon-social-instagram-copy3 {
+    top: 92px;
+    left: 1111px;
+    width: 16px;
+    height: 20px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .home-combined-shape1 {
+    top: 0px;
+    left: 0px;
+    width: 16px;
+    height: 20px;
+    position: absolute;
+  }
+  .home-icon-social-instagram-copy4 {
+    top: 92px;
+    left: 1061px;
+    width: 17px;
+    height: 20px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .home-path {
+    top: 0px;
+    left: 4.25px;
+    width: 8px;
+    height: 20px;
+    position: absolute;
+  }
+  .home-layer13 {
+    top: 2982px;
+    left: 112px;
+    width: 343px;
+    height: 196px;
+    position: absolute;
+  }
+  .home-pasted-image2 {
+    top: 157px;
+    left: -6px;
+    width: 904px;
+    height: 722px;
+    position: absolute;
+  }
+  .home-pasted-image3 {
+    right: -66px;
+    width: 886px;
+    bottom: 325px;
+    height: 693px;
+    position: absolute;
+  }
+  .home-pasted-image4 {
+    left: 181px;
+    width: 1110.771px;
+    bottom: 79px;
+    position: absolute;
+  }
+  

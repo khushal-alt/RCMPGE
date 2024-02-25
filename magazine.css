@@ -1,0 +1,388 @@
+.magazine {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.magazine .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1274px;
+    position: relative;
+}
+
+.magazine .text-wrapper {
+    width: 178px;
+    top: 49px;
+    left: 1158px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #080c53;
+    font-size: 30px;
+    line-height: normal;
+    position: absolute;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+
+.magazine .text-wrapper-2 {
+    width: 114px;
+    top: 49px;
+    left: 522px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #080c53;
+    font-size: 30px;
+    line-height: normal;
+    position: absolute;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+
+.magazine .text-wrapper-3 {
+    width: 157px;
+    top: 49px;
+    left: 636px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #080c53;
+    font-size: 30px;
+    line-height: normal;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+
+.magazine .text-wrapper-4 {
+    width: 157px;
+    left: 793px;
+    white-space: nowrap;
+    position: absolute;
+    top: 49px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #080c53;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.magazine .text-wrapper-5 {
+    width: 178px;
+    left: 965px;
+    position: absolute;
+    top: 49px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #080c53;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.magazine .rectangle {
+    width: 50px;
+    height: 3px;
+    top: 96px;
+    left: 670px;
+    border-radius: 30px;
+    position: absolute;
+    background-color: #fec400;
+}
+
+.magazine .rectangle-2 {
+    width: 496px;
+    height: 3px;
+    top: 262px;
+    left: 469px;
+    border-radius: 30px;
+    position: absolute;
+    background-color: #fec400;
+}
+
+.magazine .text-wrapper-6 {
+    position: absolute;
+    top: 54px;
+    left: 141px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.magazine .whatsapp-image {
+    position: absolute;
+    width: 75px;
+    height: 70px;
+    top: 26px;
+    left: 309px;
+    object-fit: cover;
+}
+
+.magazine .text-wrapper-7 {
+    width: 415px;
+    top: 162px;
+    left: 512px;
+    font-family: "Jost-Medium", Helvetica;
+    font-weight: 500;
+    color: #080c53;
+    font-size: 64px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+}
+
+.magazine .slideshow-container {
+    position: absolute;
+    width: 1158px;
+    height: 619px;
+    top: 354px;
+    left: 141px;
+    background-color: #080c531a;
+    border-radius: 122px;
+}
+
+.magazine .prev {
+    left: 27px;
+    position: absolute;
+    width: 24px;
+    height: 75px;
+    top: 260px;
+}
+
+.magazine .next {
+    left: 1104px;
+    position: absolute;
+    width: 24px;
+    height: 75px;
+    top: 260px;
+}
+
+
+.magazine .overlap-footer {
+    position: absolute;
+    width: 1443px;
+    height: 180px;
+    bottom: 0;
+    left: 0;
+  }
+  
+.magazine .footer {
+    position: absolute;
+    width: 1443px;
+    height: 180px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+  }
+  
+.magazine .overlap-footer-2 {
+    position: relative;
+    width: 1443px;
+    height: 180px;
+    background-color: #080c53;
+  }
+  
+.magazine .text-wrapper-footer {
+    position: absolute;
+    width: 194px;
+    top: 22px;
+    left: 189px;
+    font-family: "Jost-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+.magazine .group {
+    position: absolute;
+    width: 470px;
+    height: 24px;
+    top: 90px;
+    left: 189px;
+  }
+  
+  .magazine .text-wrapper-home {
+    width: 48px;
+    top: 0;
+    left: 0;
+    font-family: "Jost-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    position: absolute;
+    letter-spacing: 0;
+  }
+  
+  .magazine .about {
+    width: 73px;
+    top: 0;
+    left: 124px;
+    font-family: "Jost-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    position: absolute;
+    letter-spacing: 0;
+  }
+  
+  .magazine .about-2 {
+    width: 77px;
+    top: 0;
+    left: 385px;
+    font-family: "Jost-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    position: absolute;
+    letter-spacing: 0;
+  }
+  
+  .magazine .contact {
+    width: 62px;
+    top: 0;
+    left: 248px;
+    font-family: "Jost-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    position: absolute;
+    letter-spacing: 0;
+  }
+  
+  .magazine .icon-social {
+    position: absolute;
+    width: 17px;
+    height: 20px;
+    top: 92px;
+    left: 1259px;
+    background-image: url(./img/combined-shape.svg);
+    background-size: 100% 100%;
+  }
+  
+  .magazine .shape-wrapper {
+    position: absolute;
+    width: 18px;
+    height: 20px;
+    top: 92px;
+    left: 1209px;
+  }
+  
+  .magazine .shape {
+    position: absolute;
+    width: 18px;
+    height: 14px;
+    top: 3px;
+    left: 0;
+  }
+  
+  .magazine .icon-social-1 {
+    width: 50px;
+    height: 50px;
+    left: 1085px;
+    top: 75px;
+    position: absolute;
+  }
+  
+  .magazine .icon-social-2 {
+    width: 50px;
+    height: 50px;
+    left: 1115px;
+    top: 75px;
+    position: absolute;
+  }
+  
+  .magazine .icon-social-3 {
+    width: 50px;
+    height: 50px;
+    left: 1145px;
+    top: 75px;
+    position: absolute;
+  }
+  
+  .magazine .icon-social-4 {
+    width: 50px;
+    height: 50px;
+    left: 1175px;
+    top: 75px;
+    position: absolute;
+  }
+  
+  .magazine .icon-social-5 {
+    width: 50px;
+    height: 50px;
+    left: 1205px;
+    top: 75px;
+    position: absolute;
+  }
+  
+  
+  
+  .magazine .path {
+    position: absolute;
+    width: 8px;
+    height: 20px;
+    top: 0;
+    left: 4px;
+  }
+  
+  
+  .magazine .BG{
+    position: absolute;
+    width: 118px;
+    height: 35px;
+    top: 25px;
+    left: 1110px;
+    background-color: #fec400;
+    border-radius: 2px;
+    box-shadow: 0px 1px 1px #00000040;
+  }
+  
+  .magazine .button-label {
+    position: absolute;
+    top: 6px;
+    left: 23px;
+    -webkit-text-stroke: 0.5px #080c53;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #080c53;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  .magazine .rectangle-6 {
+    position: absolute;
+    width: 1111px;
+    height: 1px;
+    top: 70px;
+    left: 186px;
+    background-color: #fec400;
+  }
+  
+  
+  
+  .magazine .layer-4 {
+    position: absolute;
+    width: 343px;
+    height: 343px;
+    top: 1247px;
+    left: 0;
+  }
+  

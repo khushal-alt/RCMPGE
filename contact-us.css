@@ -1,86 +1,786 @@
-body {
-    background-color: #ffffff !important;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  .contact-form-wrapper {
-    padding: 100px 0;
-  }
-  
-  .contact-form {
-    padding: 30px 40px;
-    background-color: rgb(13, 10, 10);
-    border-radius: 12px;
-    max-width: 400px;
-  }
-  
-  .contact-form textarea {
-    resize: none;
-  }
-  
-  .contact-form .form-input,
-  .form-text-area {
-    background-color: #f0f4f5;
-    height: 50px;
-    padding-left: 16px;
-  }
-  
-  .contact-form .form-text-area {
-    background-color: #f0f4f5;
-    height: auto;
-    padding-left: 16px;
-  }
-  
-  .contact-form .form-control::placeholder {
-    color: #aeb4b9;
-    font-weight: 500;
-    opacity: 1;
-  }
-  
-  .contact-form .form-control:-ms-input-placeholder {
-    color: #ffffff;
-    font-weight: 500;
-  }
-  
-  .contact-form .form-control::-ms-input-placeholder {
-    color: #ffffff;
-    font-weight: 500;
-  }
-  
-  .contact-form .form-control:focus {
-    border-color: #33ab99;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #4397bb;
-  }
-  
-  .contact-form .title {
+.contact-us {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+.contact-us .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1280px;
+    position: relative;
+}
+
+.contact-us .text-wrapper {
+    position: absolute;
+    width: 178px;
+    top: 49px;
+    left: 1158px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #080c53;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.contact-us .text-wrapper-2 {
+    position: absolute;
+    width: 114px;
+    top: 49px;
+    left: 522px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #080c53;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.contact-us .text-wrapper-3 {
+    position: absolute;
+    width: 157px;
+    top: 49px;
+    left: 636px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #080c53;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.contact-us .text-wrapper-4 {
+    width: 157px;
+    left: 793px;
+    white-space: nowrap;
+    position: absolute;
+    top: 49px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #080c53;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.contact-us .text-wrapper-5 {
+    width: 178px;
+    left: 965px;
+    position: absolute;
+    top: 49px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #080c53;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.contact-us .rectangle {
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    top: 96px;
+    left: 1208px;
+    background-color: #fec400;
+    border-radius: 30px;
+}
+
+.contact-us .text-wrapper-6 {
+    position: absolute;
+    top: 54px;
+    left: 141px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.contact-us .whatsapp-image {
+    position: absolute;
+    width: 75px;
+    height: 70px;
+    top: 26px;
+    left: 309px;
+    object-fit: cover;
+}
+
+.contact-us .info {
+    display: flex;
+    flex-direction: column;
+    width: 382px;
+    height: 78px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 239px;
+    left: 141px;
+}
+
+
+
+
+.contact-us .text-wrapper-7 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Jost-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #080c53;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.contact-us .p {
+    position: absolute;
+    width: 382px;
+    height: 34px;
+    top: 341px;
+    left: 156px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.contact-us .name {
+    display: flex;
+    flex-direction: column;
+    width: 462px;
+    height: 109px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 410px;
+    left: 141px;
+}
+
+.contact-us .text-wrapper-8 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.contact-us .rectangle-2 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #080c53b2;
+    box-shadow: 0px 0px 1px #00000040;
+}
+.contact-us .input-field {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #080c53b2;
+    box-shadow: 0px 0px 1px #00000040;
+}
+
+.contact-us .email {
+    display: flex;
+    flex-direction: column;
+    width: 462px;
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 556px;
+    left: 141px;
+}
+
+.contact-us .message {
+    display: flex;
+    flex-direction: column;
+    width: 462px;
+    height: 164px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 700px;
+    left: 141px;
+}
+
+.contact-us .text-wrapper-9 {
+    position: relative;
+    align-self: stretch;
+    height: 56px;
+    margin-top: -1px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.submit button.text-wrapper-10{
+    display: flex;
+    width: 469px;
+    height: 66px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 910px;
+    left: 141px;
+    background-color: #fec400;
+    border-radius: 10px;
+    border-color:#fec400 ;
+    box-shadow: none;
+    
+    
+}
+
+.submit button.text-wrapper-10 {
+    
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    margin-top: 20px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #080c53;
+    font-size: 20px;
     text-align: center;
-    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    cursor: pointer;
+    outline: none; 
+}
+
+
+
+
+
+
+.contact-us .contact-info {
+    display: flex;
+    flex-direction: column;
+    width: 229px;
+    height: 122px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    top: 819px;
+    left: 965px;
+}
+
+.contact-us .location {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.contact-us .img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.contact-us .text-wrapper-11 {
+    position: relative;
+    width: fit-content;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.contact-us .vector {
+    position: absolute;
+    width: 459px;
+    height: 5px;
+    top: 324px;
+    left: 144px;
+}
+
+.contact-us .overlap {
+    position: absolute;
+    width: 1410px;
+    height: 553px;
+    top: 231px;
+    left: 720px;
+    border-radius: 122px;
+}
+
+.contact-us .layer {
+    position: absolute;
+    width: 433px;
+    height: 403px;
+    top: 77px;
+    left: 152px;
+}
+
+.contact-us .rectangle-3 {
+    position: absolute;
+    width: 1410px;
+    height: 553px;
+    top: 0;
+    left: 0;
+    background-color: #080c531a;
+    border-radius: 122px;
+}
+
+/* .contact-us .overlap-group {
+    position: absolute;
+    width: 1443px;
+    height: 380px;
+    top: 1169px;
+    left: 0;
+}
+
+.contact-us .footer {
+    position: absolute;
+    width: 1443px;
+    height: 380px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+}
+
+.contact-us .overlap-group-2 {
+    position: relative;
+    width: 1441px;
+    height: 380px;
+    background-color: #080c53;
+}
+
+.contact-us .text-wrapper-12 {
+    position: absolute;
+    width: 194px;
+    top: 22px;
+    left: 189px;
+    font-family: "Jost-Medium", Helvetica;
     font-weight: 500;
-    color: #ffff;
-  }
-  
-  .contact-form .description {
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.contact-us .group {
+    position: absolute;
+    width: 470px;
+    height: 24px;
+    top: 90px;
+    left: 189px;
+}
+
+.contact-us .text-wrapper-13 {
+    position: absolute;
+    width: 48px;
+    top: 0;
+    left: 0;
+    font-family: "Jost-Light", Helvetica;
+    font-weight: 300;
     color: #ffffff;
     font-size: 14px;
-    text-align: center;
-  }
-  
-  .contact-form .submit-button-wrapper {
-    text-align: center;
-  }
-  
-  .contact-form .submit-button-wrapper input {
-    border: none;
-    border-radius: 4px;
-    background-color: #3e8daa;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    padding: 10px 60px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.contact-us .about {
+    position: absolute;
+    width: 73px;
+    top: 0;
+    left: 124px;
+    font-family: "Jost-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.contact-us .about-2 {
+    position: absolute;
+    width: 77px;
+    top: 0;
+    left: 385px;
+    font-family: "Jost-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.contact-us .contact {
+    position: absolute;
+    width: 62px;
+    top: 0;
+    left: 248px;
+    font-family: "Jost-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.contact-us .icon-social {
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    top: 92px;
+    left: 1260px;
+    background-image: url(./img/combined-shape.svg);
+    background-size: 100% 100%;
+}
+
+.contact-us .shape-wrapper {
+    position: absolute;
+    width: 16px;
+    height: 20px;
+    top: 92px;
+    left: 1214px;
+}
+
+.contact-us .shape {
+    position: absolute;
+    width: 16px;
+    height: 13px;
+    top: 3px;
+    left: 0;
+}
+
+.contact-us .icon-social-2 {
+    width: 16px;
+    left: 1168px;
+    position: absolute;
+    height: 20px;
+    top: 92px;
+}
+
+.contact-us .icon-social-3 {
+    width: 15px;
+    left: 1122px;
+    background-image: url(./img/image.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    height: 20px;
+    top: 92px;
+}
+
+.contact-us .icon-social-4 {
+    width: 16px;
+    left: 1076px;
+    position: absolute;
+    height: 20px;
+    top: 92px;
+}
+
+.contact-us .path {
+    position: absolute;
+    width: 8px;
+    height: 20px;
+    top: 0;
+    left: 4px;
+}
+
+.contact-us .BG {
+    position: absolute;
+    width: 117px;
+    height: 35px;
+    top: -70px;
+    left: 43px;
+    background-color: #fec400;
+    border-radius: 2px;
+}
+
+.contact-us .rectangle-4 {
+    position: absolute;
+    width: 1111px;
+    height: 1px;
+    top: 70px;
+    left: 186px;
+    background-color: #fec400;
+}
+
+.contact-us .label {
+    width: 148px;
+    height: 18px;
+    all: unset;
+    box-sizing: border-box;
+}
+
+.contact-us .label .button-label {
+ 
+    width: 148px;
+    
+    font-family: "Jost-Medium", Helvetica;
     font-weight: 500;
-    letter-spacing: 2px;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 18px;
+    all: unset;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+ */
+
+ .contact-us .overlap-footer {
+    position: relative;
+    width: 1443px;
+    height: 190px;
+    top: 1035px;
+    left: 0;
   }
   
-  .contact-form .submit-button-wrapper input:hover {
-    background-color: #103f53;
+  .contact-us .footer {
+    position: absolute;
+    width: 1443px;
+    height: 190px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+  }
+  
+  .contact-us .overlap-footer-2 {
+    position: relative;
+    width: 1443px;
+    height: 190px;
+    background-color: #080c53;
+  }
+  
+  .contact-us .text-wrapper-footer {
+    position: absolute;
+    width: 194px;
+    top: 22px;
+    left: 189px;
+    font-family: "Jost-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .contact-us .group {
+    position: absolute;
+    width: 470px;
+    height: 24px;
+    top: 90px;
+    left: 189px;
+  }
+  
+  .contact-us .text-wrapper-home {
+    width: 48px;
+    top: 0;
+    left: 0;
+    font-family: "Jost-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    position: absolute;
+    letter-spacing: 0;
+    text-decoration: none;
+  }
+  
+  .contact-us .about {
+    width: 73px;
+    top: 0;
+    left: 124px;
+    font-family: "Jost-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    position: absolute;
+    letter-spacing: 0;
+    text-decoration: none;
+  }
+  
+  .contact-us .about-2 {
+    width: 77px;
+    top: 0;
+    left: 385px;
+    font-family: "Jost-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    position: absolute;
+    letter-spacing: 0;
+    text-decoration: none;
+  }
+  
+  .contact-us .contact {
+    width: 62px;
+    top: 0;
+    left: 248px;
+    font-family: "Jost-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    position: absolute;
+    letter-spacing: 0;
+    text-decoration: none;
+  }
+  
+  .contact-us .icon-social {
+    position: absolute;
+    width: 17px;
+    height: 20px;
+    top: 92px;
+    left: 1259px;
+    background-image: url(./img/combined-shape.svg);
+    background-size: 100% 100%;
+  }
+  
+  .contact-us .shape-wrapper {
+    position: absolute;
+    width: 18px;
+    height: 20px;
+    top: 92px;
+    left: 1209px;
+  }
+  
+  .contact-us .shape {
+    position: absolute;
+    width: 18px;
+    height: 14px;
+    top: 3px;
+    left: 0;
+  }
+  
+  .contact-us .icon-social-1 {
+    width: 50px;
+    height: 50px;
+    left: 1085px;
+    top: 75px;
+    position: absolute;
+  }
+  
+  .contact-us .icon-social-2 {
+    width: 50px;
+    height: 50px;
+    left: 1115px;
+    top: 75px;
+    position: absolute;
+  }
+  
+  .contact-us .icon-social-3 {
+    width: 50px;
+    height: 50px;
+    left: 1145px;
+    top: 75px;
+    position: absolute;
+  }
+  
+  .contact-us .icon-social-4 {
+    width: 50px;
+    height: 50px;
+    left: 1175px;
+    top: 75px;
+    position: absolute;
+  }
+  
+  .contact-us .icon-social-5 {
+    width: 50px;
+    height: 50px;
+    left: 1205px;
+    top: 75px;
+    position: absolute;
+  }
+  
+  
+  
+  .contact-us .path {
+    position: absolute;
+    width: 8px;
+    height: 20px;
+    top: 0;
+    left: 4px;
+  }
+  
+  
+  .contact-us .BG{
+    position: absolute;
+    width: 118px;
+    height: 35px;
+    top: 25px;
+    left: 1110px;
+    background-color: #fec400;
+    border-radius: 2px;
+    box-shadow: 0px 1px 1px #00000040;
+  }
+  
+  .contact-us .button-label {
+    position: absolute;
+    top: 6px;
+    left: 23px;
+    -webkit-text-stroke: 0.5px #080c53;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #080c53;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  .contact-us .rectangle-6 {
+    position: absolute;
+    width: 1111px;
+    height: 1px;
+    top: 70px;
+    left: 186px;
+    background-color: #fec400;
+  }
+  
+  
+  
+  .contact-us .layer-4 {
+    position: absolute;
+    width: 343px;
+    height: 343px;
+    top: 1274px;
+    left: 112px;
   }
   
